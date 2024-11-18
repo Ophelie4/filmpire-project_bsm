@@ -12,10 +12,10 @@ export const genreOrCategory = createSlice({
       state.genreIdOrCategoryName = action.payload;
       state.searchQuery = '';
     },
+
     searchMovie: (state, action) => {
       state.searchQuery = action.payload;
     },
-
   },
 });
 
